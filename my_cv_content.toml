@@ -2,55 +2,71 @@
 name = "Huakang Chen"
 title = "Curriculum Vitae"
 footer = "Huakang Chen's CV for general use"
-contacts = ["Email: chk@dochk.cn / s160101002@cqupt.edu.cn", "Telephone: (+86)133 5037 6703"]
+contacts = ["Email: chk@dochk.cn / 12331202@mail.sustech.edu.cn", "Telephone: (+86)133 5037 6703"]
 
 [[sections]]
 page = 1
-title = "EDUCATION"
+title = "EDUCATION AND WORKS"
+
+[[sections.items]]
+heading = "Southern University of Science and Technology"
+location = "Shenzhen, China"
+subheading = "PhD Candidate in Physics"
+date = "Sep 2023 - Jun 2027"
+
+[[sections.items]]
+heading = "Chongqing University of Posts and Telecommunications"
+location = "Chongqing, China"
+subheading = "Research Assistant at School of Communication and Information Engineering"
+date = "Jul 2020 - Aug 2023"
 
 [[sections.items]]
 heading = "Chongqing University of Posts and Telecommunications"
 location = "Chongqing, China"
 subheading = "M.Eng. in Information and Communication Engineering"
 date = "Sep 2016 - Jun 2020"
-lines = ["GPA: 3.38 / 4.0"]
 
 [[sections.items]]
 heading = "Chongqing University of Posts and Telecommunications"
 location = "Chongqing, China"
 subheading = "B.Eng. in Electronic Information Engineering"
 date = "Sep 2012 - Jun 2016"
-lines = ["GPA: total 3.15 / 4.0", "1st year: 2.96 / 4.0    2nd year: 2.96 / 4.0    3rd year: 3.36 / 4.0    4th year: 3.68 / 4.0"]
 
 [[sections]]
 page = 1
 title = "PUBLICATIONS"
 
 [[sections.items]]
-bullets = ["Huakang Chen, Yu Shao, Zhangjian He, Changhong Zhang, Zhizhong Zhang, \"A Millimeter-Wave Wideband Circularly Polarized Planar Spiral Antenna Array with Unequal Amplitude Feeding Network,\" International Journal of Antennas and Propagation, vol. 2021, Article ID 9955502, pp. 1-10, July 2021.", "Huakang Chen, Yu Shao, Keyao Li, Changhong Zhang, Zhizhong Zhang, \"Low-Profile Millimeter-Wave Wideband Circularly Polarized Spiral Antenna Array,\" presented at the 14th European Conference on Antennas and Propagation (EuCAP), Copenhagen, Denmark, March 15-20, 2020.", "Huakang Chen, Yu Shao, Yajing Zhang, Changhong Zhang, Zhizhong Zhang, \"Wideband Circularly Polarized Substrate Integrated Waveguide Endfire Antenna,\" presented at the 2019 Cross Strait Quad-Regional Radio Science and Wireless Technology Conference, Taiyuan, China, July 18-21, 2019."]
+bullets = ["Huakang Chen, Zihan Cai, Haoteng Ye, Ming Yu, \"A Compact Low-Profile Wideband Millimeter Wave Antenna for Planar Phased Array,\" presented at the IEEE International Symposium on Antennas and Propagation & USNC/URSI National Radio Science Meeting, Ottawa, ON, Canada, July 13-18, 2025.", "Huakang Chen, Yu Shao, Jiao Xiang, Zhangjian He, Changhong Zhang, \"A Wideband Circularly Polarized Ridge Substrate Integrated Waveguide (RSIW) Endfire Antenna,\" presented at the IEEE International Symposium on Antennas and Propagation & URSI National Radio Science Meeting, Singapore, Singapore, December 4-10, 2021.", "Huakang Chen, Yu Shao, Zhangjian He, Changhong Zhang, Zhizhong Zhang, \"A Millimeter-Wave Wideband Circularly Polarized Planar Spiral Antenna Array with Unequal Amplitude Feeding Network,\" International Journal of Antennas and Propagation, vol. 2021, Article ID 9955502, pp. 1-10, July 2021.", "Huakang Chen, Yu Shao, Keyao Li, Changhong Zhang, Zhizhong Zhang, \"Low-Profile Millimeter-Wave Wideband Circularly Polarized Spiral Antenna Array,\" presented at the 14th European Conference on Antennas and Propagation (EuCAP), Copenhagen, Denmark, March 15-20, 2020.", "Huakang Chen, Yu Shao, Yajing Zhang, Changhong Zhang, Zhizhong Zhang, \"A Millimeter Wave Triple-band SIW Antenna with Dual-sense Circular Polarization,\" IEEE Transactions on Antennas and Propagation, vol. 68, no. 12, pp. 8162-8167, May 2020.", "Huakang Chen, Yu Shao, Yajing Zhang, Changhong Zhang, Zhizhong Zhang, \"A Low-profile Broadband Circularly Polarized mmWave Antenna with Special-shaped Ring slot,\" IEEE Antennas and Wireless Propagation Letters, vol. 18, no. 7, pp. 1492-1496, June 2019.", "Huakang Chen, Yu Shao, Yajing Zhang, Changhong Zhang, Zhizhong Zhang, \"A Triple-band Millimeter Wave SIW Antenna with Dual-Sense Circular Polarization,\" presented at the IEEE International Symposium on Antennas and Propagation & USNC/URSI National Radio Science Meeting, Atlanta, GA, USA, July 7-12, 2019.", "Huakang Chen, Zhizhong Zhang, Fang Lei, \"A Design of Dual-band Circularly Polarized Millimeter-wave Microstrip Antenna,\" in IEEE International Symposium on Antennas and Propagation & USNC/URSI National Radio Science Meeting, Boston, MA, USA, 2018, pp. 1827-1828.", "Jiao Xiang, Guoquan Li, Doudou Guo, Huakang Chen, Jian Wu, \"A Dual-Band Circularly Polarized Microstrip Antenna for BDS Application,\" presented at the 2020 International Symposium on Antennas and Propagation (ISAP), Osaka, Japan, Jun. 25-28, 2021.", "Changhong Zhang, Huakang Chen, \"A Broadband Circularly Polarized Substrate Integrated Antenna with Dual Magnetoelectric Dipoles Coupled by Crossing Elliptical Slots,\" in IEEE 18th International Conference on Communication Technology (ICCT), Chongqing, China, Oct. 8-11, 2018, pp. 564-567."]
 
 [[sections]]
-page = 1
+page = 2
 title = "PROJECTS"
 
 [[sections.items]]
-heading = "Broadband circularly polarized SIW endfire antenna"
-subheading = "Millimeter-wave antenna research project"
-date = "2020 - 2021"
-bullets = ["Designed a broadband circularly polarized substrate integrated waveguide endfire antenna.", "Built and optimized antenna structures using electromagnetic simulation tools.", "Validated antenna performance through fabrication and measurement."]
+heading = "Research on Indoor Millimeter Wave 3D MIMO Channel Model Based on Electromagnetic Characteristics of Building Materials"
+date = "Jul 2019 - Jun 2022"
+bullets = ["This project studies indoor millimeter-wave 3D MIMO channel modeling based on electromagnetic properties of building materials. By characterizing how walls, ceilings, and floors affect wave propagation, a realistic 3D channel model is developed to support high-precision massive MIMO simulations, beamforming, and millimeter-wave network deployment in complex indoor environments."]
 
 [[sections.items]]
-heading = "Gain controllable RF amplifier"
-subheading = "2015 National Undergraduate Electronic Design Contest"
-date = "Aug 2015"
-bullets = ["Designed and fabricated a gain controllable RF amplifier in 4 days.", "Achieved a gain range from 0 dB to 52 dB and a frequency range from 40 MHz to 200 MHz.", "Implemented programmable gain stages and fixed gain amplification controlled by a Xilinx Basys 3 board.", "Technical skill sets: power supply circuit design, analog circuit design, and FPGA programming."]
+heading = "Research on the interaction between human body and millimeter wave based on different individual characteristics in millimeter wave body domain network"
+date = "Jan 2018 - Dec 2020"
+bullets = ["This project investigates the interaction between millimeter waves and the human body in body area networks at 28 GHz. A millimeter-wave circularly polarized antenna was designed and reported in our published work. By modeling diverse human morphologies, the study aims to enhance the reliability and adaptability of body-centric communications. The proposed approach supports personalized health monitoring and wearable applications."]
+
+[[sections.items]]
+heading = "Wenfeng Innovation and Entrepreneurship Project of Chongqing University of Posts and Telecommunications, Director"
+date = "Mar 2015 - Jul 2016"
+bullets = ["Three iterative versions of hardware and two interaction APPs based on Android and IOS system are proposed respectively. Bluetooth Communication Protocol Configuration, and debugging of hardware and software."]
 
 [[sections]]
-page = 1
+page = 2
 title = "NOTABLE COMPETITIONS"
 
 [[sections.items]]
-bullets = ["National Undergraduate Electronic Design Contest, Second Prize, Dec 2015.", "TI Cup Chongqing University Students Electronic Design Competition, Second Prize, Sep 2014.", "\"Internet+\" China Innovation and Entrepreneurship Competition for College Student, Gold Award, Nov 2017."]
+heading = "Radio Frequency Transmitter System"
+subheading = "2016 IEEE International Symposium on Radio-Frequency Integration Technoloy (RFIT2016) Student Design Competition"
+date = "Aug 2016"
+bullets = ["A patch Yagi antenna with 9 dB gain and 2.8 GHz central operating frequency was fabricated.", "Technical skill sets: Experienced with Printed Circuit Board (PCB) Technical, Knowledge of Radio Frequency Circuit Design, and Skilled with Electromagnetic Simulation Software, e.g., CST, HFSS."]
 
 [[sections]]
 page = 2
@@ -58,9 +74,9 @@ title = "EXPERIENCE"
 
 [[sections.items]]
 heading = "Chongqing University of Posts and Telecommunications"
-subheading = "Graduate Teaching Assistant, Integrated Design and Simulation of Electronic Systems"
+subheading = "Graduate Teaching Assistant, Integrated Design of Electronic Systems II / Integrated Design and Simulation of Electronic Systems"
 date = "Sep 2016 - Jun 2019"
-bullets = ["Taught undergraduate electronic system design courses with the instructor.", "Course contents included circuit design, simulation, PCB manufacturing, validation testing, and MCU programming."]
+bullets = ["Teaching undergraduates electronic system design courses with instructor.", "The main contents of the course include circuit design, simulation, PCB manufacturing, validated testing and MCU programing, etc."]
 
 [[sections]]
 page = 2
@@ -74,7 +90,7 @@ page = 2
 title = "HONORS & AWARDS"
 
 [[sections.items]]
-bullets = ["Chongqing Univ. of Posts and Telecom. First Academic Scholarship - Apr 2019.", "National College Students Smart Connected Innovation Competition, Second Prize - Dec 2017.", "Chongqing Univ. of Posts and Telecom. Outstanding Graduate Student - Dec 2017.", "Chongqing Univ. of Posts and Telecom. First Academic Scholarship - Dec 2017.", "\"HUAWEI Cup\" The 14th China Post-Graduate Mathematical Contest in Modeling, Second Prize - Dec 2017.", "\"Internet+\" China Innovation and Entrepreneurship Competition for College Student, Gold Award - Nov 2017.", "\"HUAWEI Cup\" The 13th China Post-Graduate Mathematical Contest in Modeling, Third Prize - Dec 2016.", "Chongqing Univ. of Posts and Telecom. First Academic Scholarship - Dec 2016.", "National Undergraduate Electronic Design Contest, Second Prize - Dec 2015.", "Chongqing Univ. of Posts and Telecom. Second Academic Scholarship - Dec 2015.", "TI Cup Chongqing Univ. Students Electronic Design Competition, Second Prize - Sep 2014."]
+bullets = ["Chongqing Univ. of Posts and Telecom. First Academic Scholarship - Apr 2019.", "National College Students Smart Connected Innovation Competition, Second Prize - Dec 2017.", "Chongqing Univ. of Posts and Telecom. Outstanding Graduate Student - Dec 2017.", "Chongqing Univ. of Posts and Telecom. First Academic Scholarship - Dec 2017.", "\"HUAWEI Cup\" The 14th China Post-Graduate Mathematical Contest in Modeling, Second Prize - Dec 2017.", "\"Internet+\" China Innovation and Entrepreneurship Competition for College Student, Gold Award - Nov 2017.", "\"HUAWEI Cup\" The 13th China Post-Graduate Mathematical Contest in Modeling, Third Prize - Dec 2016.", "Chongqing Univ. of Posts and Telecom. First Academic Scholarship - Dec 2016.", "National Undergraduate Electronic Design Contest, Sencond Prize - Dec 2015.", "Chongqing Univ. of Posts and Telecom. Second Academic Scholarship - Dec 2015.", "TI Cup Chongqing Univ. Students Electronic Design Competition, Second Prize - Sep 2014."]
 
 [[sections]]
 page = 2
