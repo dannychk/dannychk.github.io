@@ -1,0 +1,84 @@
+[profile]
+name = "Huakang Chen"
+title = "Curriculum Vitae"
+footer = "Huakang Chen's CV for general use"
+contacts = ["Email: chk@dochk.cn / s160101002@cqupt.edu.cn", "Telephone: (+86)133 5037 6703"]
+
+[[sections]]
+page = 1
+title = "EDUCATION"
+
+[[sections.items]]
+heading = "Chongqing University of Posts and Telecommunications"
+location = "Chongqing, China"
+subheading = "M.Eng. in Information and Communication Engineering"
+date = "Sep 2016 - Jun 2020"
+lines = ["GPA: 3.38 / 4.0"]
+
+[[sections.items]]
+heading = "Chongqing University of Posts and Telecommunications"
+location = "Chongqing, China"
+subheading = "B.Eng. in Electronic Information Engineering"
+date = "Sep 2012 - Jun 2016"
+lines = ["GPA: total 3.15 / 4.0", "1st year: 2.96 / 4.0    2nd year: 2.96 / 4.0    3rd year: 3.36 / 4.0    4th year: 3.68 / 4.0"]
+
+[[sections]]
+page = 1
+title = "PUBLICATIONS"
+
+[[sections.items]]
+bullets = ["Huakang Chen, Yu Shao, Zhangjian He, Changhong Zhang, Zhizhong Zhang, \"A Millimeter-Wave Wideband Circularly Polarized Planar Spiral Antenna Array with Unequal Amplitude Feeding Network,\" International Journal of Antennas and Propagation, vol. 2021, Article ID 9955502, pp. 1-10, July 2021.", "Huakang Chen, Yu Shao, Keyao Li, Changhong Zhang, Zhizhong Zhang, \"Low-Profile Millimeter-Wave Wideband Circularly Polarized Spiral Antenna Array,\" presented at the 14th European Conference on Antennas and Propagation (EuCAP), Copenhagen, Denmark, March 15-20, 2020.", "Huakang Chen, Yu Shao, Yajing Zhang, Changhong Zhang, Zhizhong Zhang, \"Wideband Circularly Polarized Substrate Integrated Waveguide Endfire Antenna,\" presented at the 2019 Cross Strait Quad-Regional Radio Science and Wireless Technology Conference, Taiyuan, China, July 18-21, 2019."]
+
+[[sections]]
+page = 1
+title = "PROJECTS"
+
+[[sections.items]]
+heading = "Broadband circularly polarized SIW endfire antenna"
+subheading = "Millimeter-wave antenna research project"
+date = "2020 - 2021"
+bullets = ["Designed a broadband circularly polarized substrate integrated waveguide endfire antenna.", "Built and optimized antenna structures using electromagnetic simulation tools.", "Validated antenna performance through fabrication and measurement."]
+
+[[sections.items]]
+heading = "Gain controllable RF amplifier"
+subheading = "2015 National Undergraduate Electronic Design Contest"
+date = "Aug 2015"
+bullets = ["Designed and fabricated a gain controllable RF amplifier in 4 days.", "Achieved a gain range from 0 dB to 52 dB and a frequency range from 40 MHz to 200 MHz.", "Implemented programmable gain stages and fixed gain amplification controlled by a Xilinx Basys 3 board.", "Technical skill sets: power supply circuit design, analog circuit design, and FPGA programming."]
+
+[[sections]]
+page = 1
+title = "NOTABLE COMPETITIONS"
+
+[[sections.items]]
+bullets = ["National Undergraduate Electronic Design Contest, Second Prize, Dec 2015.", "TI Cup Chongqing University Students Electronic Design Competition, Second Prize, Sep 2014.", "\"Internet+\" China Innovation and Entrepreneurship Competition for College Student, Gold Award, Nov 2017."]
+
+[[sections]]
+page = 2
+title = "EXPERIENCE"
+
+[[sections.items]]
+heading = "Chongqing University of Posts and Telecommunications"
+subheading = "Graduate Teaching Assistant, Integrated Design and Simulation of Electronic Systems"
+date = "Sep 2016 - Jun 2019"
+bullets = ["Taught undergraduate electronic system design courses with the instructor.", "Course contents included circuit design, simulation, PCB manufacturing, validation testing, and MCU programming."]
+
+[[sections]]
+page = 2
+title = "PATENTS"
+
+[[sections.items]]
+bullets = ["A broadband circularly polarized substrate integrated waveguide endfire antenna, Chinese Patent NO.202110305208.4 (approved) - Mar 2021.", "A millimeter wave triple-band triple-polarization substrate integrated waveguide antenna, Chinese Patent NO.201910140731.9 (approved) - Feb 2019.", "A millimeter wave broadband circularly polarized microstrip antenna, Chinese Patent NO.201810914385.0 (approved) - Aug 2018."]
+
+[[sections]]
+page = 2
+title = "HONORS & AWARDS"
+
+[[sections.items]]
+bullets = ["Chongqing Univ. of Posts and Telecom. First Academic Scholarship - Apr 2019.", "National College Students Smart Connected Innovation Competition, Second Prize - Dec 2017.", "Chongqing Univ. of Posts and Telecom. Outstanding Graduate Student - Dec 2017.", "Chongqing Univ. of Posts and Telecom. First Academic Scholarship - Dec 2017.", "\"HUAWEI Cup\" The 14th China Post-Graduate Mathematical Contest in Modeling, Second Prize - Dec 2017.", "\"Internet+\" China Innovation and Entrepreneurship Competition for College Student, Gold Award - Nov 2017.", "\"HUAWEI Cup\" The 13th China Post-Graduate Mathematical Contest in Modeling, Third Prize - Dec 2016.", "Chongqing Univ. of Posts and Telecom. First Academic Scholarship - Dec 2016.", "National Undergraduate Electronic Design Contest, Second Prize - Dec 2015.", "Chongqing Univ. of Posts and Telecom. Second Academic Scholarship - Dec 2015.", "TI Cup Chongqing Univ. Students Electronic Design Competition, Second Prize - Sep 2014."]
+
+[[sections]]
+page = 2
+title = "PROFESSIONAL SKILLS"
+
+[[sections.items]]
+lines = ["Advanced Programming: C/C++ (Qt, Visual Studio), Embedded Linux Programming, Python.", "Hardware Programming: Verilog/VHDL (Quartus, Vivado), Assembly language (Keil, IAR).", "Hardware: Circuit simulation (Proteus, Multisim), Electromagnetic simulation (CST, HFSS), Circuit Design (Altium Designer, Cadence), Engineering drawing (AutoCAD)."]
