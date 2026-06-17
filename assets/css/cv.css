@@ -135,7 +135,9 @@ body {
 .cv-heading a,
 .cv-subheading a {
   color: inherit;
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-thickness: 0.05em;
+  text-underline-offset: 0.08em;
 }
 
 .cv-bullets a:hover,

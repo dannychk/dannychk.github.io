@@ -1,5 +1,5 @@
 (function () {
-  const CONTENT_URL = "my_cv_content.toml";
+  const CONTENT_URL = "my_cv_content.toml?v=20260618-richlinks";
 
   function stripComment(line) {
     let inString = false;
