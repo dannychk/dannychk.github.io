@@ -176,30 +176,74 @@
     return node;
   }
 
+  function normalizeUrl(url) {
+    if (/^10\./.test(url)) return `https://doi.org/${url}`;
+    return url;
+  }
+
+  function appendInline(parent, text) {
+    const pattern = /(\*\*([^*]+)\*\*)|(\[([^\]]+)\]\(([^)]+)\))/g;
+    let cursor = 0;
+    let match;
+
+    while ((match = pattern.exec(text)) !== null) {
+      if (match.index > cursor) {
+        parent.appendChild(document.createTextNode(text.slice(cursor, match.index)));
+      }
+
+      if (match[2]) {
+        const strong = document.createElement("strong");
+        strong.textContent = match[2];
+        parent.appendChild(strong);
+      } else {
+        const link = document.createElement("a");
+        link.href = normalizeUrl(match[5]);
+        link.textContent = match[4];
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        parent.appendChild(link);
+      }
+
+      cursor = pattern.lastIndex;
+    }
+
+    if (cursor < text.length) {
+      parent.appendChild(document.createTextNode(text.slice(cursor)));
+    }
+  }
+
+  function richEl(tag, className, text) {
+    const node = el(tag, className);
+    appendInline(node, text || "");
+    return node;
+  }
+
   function renderRow(leftClass, left, rightClass, right) {
     if (!left && !right) return null;
     const row = el("div", "cv-row");
     if (!right) row.classList.add("cv-row-single");
-    row.appendChild(el("div", leftClass, left || ""));
-    if (right) row.appendChild(el("div", rightClass, right));
+    row.appendChild(richEl("div", leftClass, left || ""));
+    if (right) row.appendChild(richEl("div", rightClass, right));
     return row;
   }
 
   function renderItem(item) {
     const wrapper = el("article", "cv-item");
-    const heading = renderRow("cv-heading", item.heading, "cv-location", item.location);
-    const subheading = renderRow("cv-subheading", item.subheading, "cv-date", item.date);
+    const headingRight = item.location || (!item.subheading ? item.date : "");
+    const heading = renderRow("cv-heading", item.heading, "cv-location", headingRight);
+    const subheadingDate = item.subheading ? item.date : "";
+    const subheading = renderRow("cv-subheading", item.subheading, "cv-date", subheadingDate);
     if (heading) wrapper.appendChild(heading);
     if (subheading) wrapper.appendChild(subheading);
 
     for (const line of item.lines || []) {
-      wrapper.appendChild(el("p", "cv-line", line));
+      wrapper.appendChild(richEl("p", "cv-line", line));
     }
 
     if (item.bullets && item.bullets.length) {
       const list = el("ul", "cv-bullets");
       for (const bullet of item.bullets) {
-        list.appendChild(el("li", "", bullet));
+        list.appendChild(richEl("li", "", bullet));
       }
       wrapper.appendChild(list);
     }
