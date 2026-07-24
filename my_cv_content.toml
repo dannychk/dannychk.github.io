@@ -94,7 +94,7 @@ page = 2
 title = "PATENTS"
 
 [[sections.items]]
-bullets = ["A broadband circularly polarized substrate integrated waveguide endfire antenna, Chinese Patent NO.202110305208.4 (approved) - Mar 2021.", "A broadband coaxial-to-thick dielectric single-ridge substrate integrated waveguide transition structure, Chinese Patent NO.202210971839.4 (approved) - Aug 2022.", "A millimeter wave triple-band triple-polarization substrate integrated waveguide antenna, Chinese Patent NO.201910140731.9 (approved) - Feb 2019.", "A millimeter wave broadband circularly polarized microstrip antenna, Chinese Patent NO.201810914385.0 (approved) - Aug 2018."]
+bullets = ["A broadband coaxial-to-thick dielectric single-ridge substrate integrated waveguide transition structure, Chinese Patent NO.202210971839.4 (approved) - Aug 2022.", "A broadband circularly polarized substrate integrated waveguide endfire antenna, Chinese Patent NO.202110305208.4 (approved) - Mar 2021.", "A millimeter wave triple-band triple-polarization substrate integrated waveguide antenna, Chinese Patent NO.201910140731.9 (approved) - Feb 2019.", "A millimeter wave broadband circularly polarized microstrip antenna, Chinese Patent NO.201810914385.0 (approved) - Aug 2018."]
 
 [[sections]]
 page = 2
