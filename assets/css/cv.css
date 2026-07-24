@@ -106,6 +106,10 @@ body {
   grid-template-columns: 1fr;
 }
 
+.cv-entry-text {
+  font-weight: 400;
+}
+
 .cv-heading,
 .cv-subheading {
   font-weight: 700;
@@ -119,6 +123,23 @@ body {
 
 .cv-line {
   margin: 0.45mm 0 0;
+}
+
+.cv-item-bulleted {
+  position: relative;
+  padding-left: 4.6mm;
+}
+
+.cv-item-bulleted::before {
+  content: "•";
+  position: absolute;
+  left: 1.2mm;
+  top: 0;
+}
+
+.cv-item-bulleted .cv-location {
+  color: var(--ink);
+  text-align: right;
 }
 
 .cv-bullets {

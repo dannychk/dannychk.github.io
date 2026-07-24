@@ -1,5 +1,5 @@
 (function () {
-  const CONTENT_URL = "my_cv_content.toml?v=20260618-richlinks";
+  const CONTENT_URL = "my_cv_content.toml?v=20260724-rightdates";
 
   function stripComment(line) {
     let inString = false;
@@ -229,8 +229,11 @@
 
   function renderItem(item) {
     const wrapper = el("article", "cv-item");
+    if (item.bullet) wrapper.classList.add("cv-item-bulleted");
+    const headingText = item.text || item.heading;
+    const headingClass = item.text ? "cv-entry-text" : "cv-heading";
     const headingRight = item.location || (!item.subheading ? item.date : "");
-    const heading = renderRow("cv-heading", item.heading, "cv-location", headingRight);
+    const heading = renderRow(headingClass, headingText, "cv-location", headingRight);
     const subheadingDate = item.subheading ? item.date : "";
     const subheading = renderRow("cv-subheading", item.subheading, "cv-date", subheadingDate);
     if (heading) wrapper.appendChild(heading);

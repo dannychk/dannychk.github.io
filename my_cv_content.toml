@@ -94,14 +94,83 @@ page = 2
 title = "PATENTS"
 
 [[sections.items]]
-bullets = ["A broadband coaxial-to-thick dielectric single-ridge substrate integrated waveguide transition structure, Chinese Patent NO.202210971839.4 (approved) - Aug 2022.", "A broadband circularly polarized substrate integrated waveguide endfire antenna, Chinese Patent NO.202110305208.4 (approved) - Mar 2021.", "A millimeter wave triple-band triple-polarization substrate integrated waveguide antenna, Chinese Patent NO.201910140731.9 (approved) - Feb 2019.", "A millimeter wave broadband circularly polarized microstrip antenna, Chinese Patent NO.201810914385.0 (approved) - Aug 2018."]
+bullet = true
+text = "A broadband coaxial-to-thick dielectric single-ridge substrate integrated waveguide transition structure, Chinese Patent NO.202210971839.4"
+date = "(approved) - Aug 2022"
+
+[[sections.items]]
+bullet = true
+text = "A broadband circularly polarized substrate integrated waveguide endfire antenna, Chinese Patent NO.202110305208.4"
+date = "(approved) - Mar 2021"
+
+[[sections.items]]
+bullet = true
+text = "A millimeter wave triple-band triple-polarization substrate integrated waveguide antenna, Chinese Patent NO.201910140731.9"
+date = "(approved) - Feb 2019"
+
+[[sections.items]]
+bullet = true
+text = "A millimeter wave broadband circularly polarized microstrip antenna, Chinese Patent NO.201810914385.0"
+date = "(approved) - Aug 2018"
 
 [[sections]]
 page = 2
 title = "HONORS & AWARDS"
 
 [[sections.items]]
-bullets = ["Chongqing Univ. of Posts and Telecom. First Academic Scholarship - Apr 2019.", "National College Students Smart Connected Innovation Competition, Second Prize - Dec 2017.", "Chongqing Univ. of Posts and Telecom. Outstanding Graduate Student - Dec 2017.", "Chongqing Univ. of Posts and Telecom. First Academic Scholarship - Dec 2017.", "\"HUAWEI Cup\" The 14th China Post-Graduate Mathematical Contest in Modeling, Second Prize - Dec 2017.", "\"Internet+\" China Innovation and Entrepreneurship Competition for College Student, Gold Award - Nov 2017.", "\"HUAWEI Cup\" The 13th China Post-Graduate Mathematical Contest in Modeling, Third Prize - Dec 2016.", "Chongqing Univ. of Posts and Telecom. First Academic Scholarship - Dec 2016.", "National Undergraduate Electronic Design Contest, Sencond Prize - Dec 2015.", "Chongqing Univ. of Posts and Telecom. Second Academic Scholarship - Dec 2015.", "TI Cup Chongqing Univ. Students Electronic Design Competition, Second Prize - Sep 2014."]
+bullet = true
+text = "Chongqing Univ. of Posts and Telecom. First Academic Scholarship"
+date = "Apr 2019"
+
+[[sections.items]]
+bullet = true
+text = "National College Students Smart Connected Innovation Competition, Second Prize"
+date = "Dec 2017"
+
+[[sections.items]]
+bullet = true
+text = "Chongqing Univ. of Posts and Telecom. Outstanding Graduate Student"
+date = "Dec 2017"
+
+[[sections.items]]
+bullet = true
+text = "Chongqing Univ. of Posts and Telecom. First Academic Scholarship"
+date = "Dec 2017"
+
+[[sections.items]]
+bullet = true
+text = "\"HUAWEI Cup\" The 14th China Post-Graduate Mathematical Contest in Modeling, Second Prize"
+date = "Dec 2017"
+
+[[sections.items]]
+bullet = true
+text = "\"Internet+\" China Innovation and Entrepreneurship Competition for College Student, Gold Award"
+date = "Nov 2017"
+
+[[sections.items]]
+bullet = true
+text = "\"HUAWEI Cup\" The 13th China Post-Graduate Mathematical Contest in Modeling, Third Prize"
+date = "Dec 2016"
+
+[[sections.items]]
+bullet = true
+text = "Chongqing Univ. of Posts and Telecom. First Academic Scholarship"
+date = "Dec 2016"
+
+[[sections.items]]
+bullet = true
+text = "National Undergraduate Electronic Design Contest, Sencond Prize"
+date = "Dec 2015"
+
+[[sections.items]]
+bullet = true
+text = "Chongqing Univ. of Posts and Telecom. Second Academic Scholarship"
+date = "Dec 2015"
+
+[[sections.items]]
+bullet = true
+text = "TI Cup Chongqing Univ. Students Electronic Design Competition, Second Prize"
+date = "Sep 2014"
 
 [[sections]]
 page = 2
